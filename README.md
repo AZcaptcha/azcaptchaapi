@@ -1,7 +1,6 @@
 # AZCaptcha.com Python API
 
-This library implements a simple to use wrapper around the 2Captcha.com API.
-
+This library implements a simple to use wrapper around the AZcaptcha.com API
 ### Installation
 From PyPi
 ```
