@@ -1,6 +1,6 @@
 # AZCaptcha.com Python API
 
-This library implements a simple to use wrapper around the 2Captcha.com API.
+This library implements a simple to use wrapper around the AZCaptcha.com API.
 
 ### Installation
 From PyPi
@@ -19,7 +19,7 @@ python setup.py install
 
 #### Initializing the API
 ```python
-from twocaptchaapi import TwoCaptchaApi
+from azcaptcha import AZCaptchaApi
 api = TwoCaptchaApi('<API KEY>')
 ```
 
@@ -57,4 +57,4 @@ This library was successfully tested on Python 2.7 and 3.5. Python versions < 2.
 ### License
 This code is released under MIT license. Dependencies are under their respective licenses.
 
-*This project is _not_ affiliated with, maintained, authorized, endorsed or sponsored by 2Captcha.com or any of its affiliates.*
+*This project is _not_ affiliated with, maintained, authorized, endorsed or sponsored by AZCaptcha.com or any of its affiliates.*
