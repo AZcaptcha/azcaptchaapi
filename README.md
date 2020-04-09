@@ -20,7 +20,7 @@ python setup.py install
 #### Initializing the API
 ```python
 from azcaptcha import AZCaptchaApi
-api = TwoCaptchaApi('<API KEY>')
+api = AZCaptchaApi('<API KEY>')
 ```
 
 #### Solving a captcha blocking
