@@ -99,7 +99,7 @@ class AZCaptchaApi(object):
     def get(self, url, params, **kwargs):
         """Sends a HTTP GET, for low-level API interaction."""
         params['key'] = self.api_key
-        return requests.get(url, params, **kwargs)
+        return requests.get(url, params, **kwargs, headers={'Cache-Control': 'no-cache'})
 
     def post(self, url, data, **kwargs):
         """Sends a HTTP POST, for low-level API interaction."""
