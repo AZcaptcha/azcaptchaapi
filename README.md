@@ -19,7 +19,7 @@ python setup.py install
 
 #### Initializing the API
 ```python
-from azcaptcha import AZCaptchaApi
+from azcaptchaapi import AZCaptchaApi
 api = AZCaptchaApi('<API KEY>')
 ```
 
